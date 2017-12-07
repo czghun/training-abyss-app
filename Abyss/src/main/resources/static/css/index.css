@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+html, body{
+	height:100%;
+	padding-top:10px;
+}
+h1{
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size:80px;
+	margin:30% 90%;
+	font-color:white;
+}
+img.sticky2{
+    position: -webkit-sticky;
+    position: sticky;
+   	margin: 0px 100px;
+}
+.header{
+	margin: 0px 40px;
+	background-image: url("../images/rig.png");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 0% 65% 30% 10%;  
+}
+.body{
+	margin:20px;	
+}
+button{
+	text-align:right;
+	float:right;
+	padding: 20px 150px;
+	background-color: white; 
+    border: none;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
